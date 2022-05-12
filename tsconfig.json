@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"noImplicitAny": true,
+		"forceConsistentCasingInFileNames": true,
+		"sourceMap": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"experimentalDecorators": true,
+		"module": "commonjs",
+		"target": "es6",
+		"moduleResolution": "node",
+		"outDir": "dist",
+		"paths": {
+			"@controllers": ["./src/controllers"],
+			"@config": ["./src/core/config"],
+			"@constants": ["./src/core/constants"],
+			"@database": ["./src/core/database"],
+			"@routes": ["./src/core/routes"],
+			"@utils": ["./src/core/utils"],
+			"@validate": ["./src/core/validate"],
+			"@entities": ["./src/entities"],
+			"@middleware": ["./src/middleware"],
+			"@services": ["./src/services"],
+			"@core/*": ["./src/core/*"],
+			"@dto": ["./src/core/dto"],
+			"@api": ["./src/core/api"]
+		}
+	}
+}
